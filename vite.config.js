@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// base: "./" para que funcione en subrutas (GitHub Pages, etc.)
+// base fijado al nombre exacto del repositorio de GitHub: "Facturas-"
 export default defineConfig({
   plugins: [react()],
-  base: "./",
+  base: "/Facturas-/",
 });
